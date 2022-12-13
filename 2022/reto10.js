@@ -23,5 +23,5 @@ function checkJump(heights) {
       }
     })
     return !heightsBool.some( jump => jump === false )
-  }
+}
   

@@ -6,9 +6,9 @@ const checkPart = ( part ) => {
     if( part === reversePart.join('') ) return true
     
     for( let i = 0; i < part.length; i++){
-      const shortPart = [...partArray]
-      shortPart.splice(i,1)
-      if( shortPart.join('') === shortPart.reverse().join('')) return true
+        const shortPart = [...partArray]
+        shortPart.splice(i,1)
+        if( shortPart.join('') === shortPart.reverse().join('')) return true
     }
     
     return false

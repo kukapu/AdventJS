@@ -17,5 +17,5 @@ function getCompleted(part, total) {
     const mCD = maximoComunDivisor( partSec, totalSec )
     
     return `${partSec/mCD}/${totalSec/mCD}`
-  }
+}
   

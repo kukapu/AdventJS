@@ -6,4 +6,4 @@ function selectSleigh(distance, sleighs) {
     })
     
     return result
-  }
+}
